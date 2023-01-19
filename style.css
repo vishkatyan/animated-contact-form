@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.container {
+  padding: 5px;
+}
+.container h1 {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container form {
+  justify-content: center;
+  text-align: center;
+}
+.container form input[type=text], .container form select, .container form textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  padding: 12px;
+  border: 1px #ccc;
+  border-bottom-style: solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.container form iframe {
+  justify-content: center;
+  height: 40px;
+  width: 10%;
+  border: none;
+}
+.container form label {
+  color: #fff;
+  padding: 5px;
+}
+.container form input[type=submit] {
+  background-color: #04AA6D;
+  margin: 10px;
+  justify-content: center;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container form input[type=submit]:hover {
+  background-color: #45a049;
+}/*# sourceMappingURL=style.css.map */
